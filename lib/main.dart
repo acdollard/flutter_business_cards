@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.cyan[800],
+        backgroundColor: Colors.deepPurple[800],
         body: SafeArea(
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                     'Flutter Developer'.toUpperCase(),
                     style: TextStyle(
                       fontFamily: 'Questrial',
-                      color: Colors.cyan[100],
+                      color: Colors.purple[100],
                       fontSize: 18.0,
                       fontWeight: FontWeight.w400,
                       letterSpacing: 2.5,
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
                     height: 20.0,
                     width: 150.0,
                     child: Divider(
-                      color: Colors.cyan[100],
+                      color: Colors.purple[100],
                     )
                 ),
                 Card(
@@ -49,12 +49,12 @@ class MyApp extends StatelessWidget {
                   child: ListTile(
                     leading: Icon(
                       Icons.phone,
-                      color: Colors.cyan[900],
+                      color: Colors.purple[900],
                     ),
                     title: Text(
                       '770-542-9231',
                       style: TextStyle(
-                          color: Colors.cyan[900],
+                          color: Colors.purple[900],
                           fontSize: 18.0
                       ),
                     ),
@@ -66,12 +66,12 @@ class MyApp extends StatelessWidget {
                     child: ListTile(
                         leading: Icon(
                           Icons.email,
-                          color: Colors.cyan[900],
+                          color: Colors.purple[900],
                         ),
                         title: Text(
                             'alexdollard141@gmail.com',
                             style: TextStyle(
-                              color: Colors.cyan[900],
+                              color: Colors.purple[900],
                               fontSize: 18.0,
                             )
                         )
